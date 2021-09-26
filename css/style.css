@@ -7,10 +7,14 @@
 }
 /* Styling starts here */
 body {
-  font-size: 43px;
+  font-size: 30px;
   font-family: emoji;
+  line-height: 90px;
+  word-spacing: 5px;
   color: var(--main__text--color);
   background: var(--main__background--color);
   display: flex;
   justify-content: center;
+  position: relative;
+  top: 250px;
 }
