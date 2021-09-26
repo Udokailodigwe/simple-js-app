@@ -8,14 +8,19 @@ let pokemonList = [
    {name: 'Poliwrath', height:3, type: ['Water', 'Fighting']}
 ];
 
-// Printed the names and hieght of the element by iterating the pokemon list
+// Printed the names and hieght of the element by iterating the pokemon list.
 for (let i = 0; i < pokemonList.length; i++){
-document.write(pokemonList[i].name +' ' + 'height:' + pokemonList[i].height +'.');
 
-// Highlighted individual pokemon item
-if (pokemonList[i].height > 6 && pokemonList[i].height < 10){
-document.write(' - Wow, that\'s big! ');
-}else document.write('  ')
+   let pokeName = pokemonList[i].name;
+   let pokeHeight = pokemonList[i].height;
+   
+if (pokeHeight > 5 && pokeHeight < 7){
+   document.write(pokeName + '  ' + '(' + 'height:' + ' ' + pokeHeight + ')' + '<br>' );
+   }else if (pokeHeight > 6){
+   document.write(pokeName + '  ' + '(' + 'height:' + ' ' + pokeHeight + ')' + ' - Wow, that\'s a big sized Pokemon!' + '<br>'); //Highlighted the biggest pokemon element in the list.
+   }else {
+   document.write(pokeName + '  ' + '(' + 'height:' + ' ' + pokeHeight + ')' + '<br>' );
+   }
 }
 
 
