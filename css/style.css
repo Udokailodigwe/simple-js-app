@@ -1,0 +1,16 @@
+/* Styling the body of pokedex app */
+
+/* Variables */
+:root {
+  --main__background--color: #000;
+  --main__text--color: #800;
+}
+/* Styling starts here */
+body {
+  font-size: 43px;
+  font-family: emoji;
+  color: var(--main__text--color);
+  background: var(--main__background--color);
+  display: flex;
+  justify-content: center;
+}
