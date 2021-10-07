@@ -4,8 +4,9 @@
 :root {
   --main__background--color: #000;
   --main__text--color: #800;
+  --button__background--color: #ff7b69;
 }
-/* Styling starts here */
+/* Styling starts here  */
 body {
   font-size: 30px;
   font-family: emoji;
@@ -17,4 +18,18 @@ body {
   justify-content: center;
   position: relative;
   top: 250px;
+  background: url("/image/pokemon.jpeg");
+}
+
+/* button for pokemon__list */
+.pokemon__list--button {
+  border: 2px solid #dbf303;
+  cursor: pointer;
+  text-align: center;
+  background-color: var(--button__background--color);
+  color: var(--main__background--color);
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 5px;
+  border-radius: 15px;
 }
