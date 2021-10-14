@@ -3,11 +3,14 @@
 /**
  *@function: add -  Allows for the increment of items in pokemonList array.
  *                   getAll - Lists all items in pokemonList array.
- *                   addListItem - This function selected, created and  manipulated nodes and 
- *                                          also rendered to browser.
- *                   showDetails - Loads the details of the pokemon from the API to the console and *                                           displays modal
+ *                   addListItem - This function selected, created and  manipulated nodes and also
+ *                                           rendered to browser.                                 
+ * 
+ *                   showDetails - Loads the details of the pokemon from the API to the console
+ *                                            and displays modal
  *                   loadList - Loads the pokemon list from the URL using promise function & fetch().
- *                   loadDetails - will GET the Pokemon details using the promise function & fetch() *                                          through object array in the API.
+ *                   loadDetails - will GET the Pokemon details using the promise function & fetch() 
+ *                                         through object array in the API.
  *                   showLoadingMessage - Shows Loading message while data is fetched                  
  *                   hideLoadingMessage - Hides loading message after data is fetched.
  *                   hideModal - Removes modal visibility when called.
