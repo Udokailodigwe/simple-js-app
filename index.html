@@ -10,9 +10,16 @@
 <body>
    <h1 class="head">Pokémon</h1>
    
-<ul class="pokemon__list"></ul>
+   <div class="loading__message">Fetching Pokémons, please wait...</div>
+ 
+   <ul class="pokemon__list"></ul>
+   <div class="pokemon__modal--container"></div>
+
+
+
 
 <script src="js/promise-polyfill.js"></script>
+<script src="js/fetch-polyfill.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
