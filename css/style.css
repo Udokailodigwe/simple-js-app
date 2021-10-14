@@ -2,35 +2,36 @@
 
 /* Variables */
 :root {
-  --main__background--color: #000;
-  --main__text--color: #3f3b3b;
-  --button__background--color: #ff7b69;
-  --text__border--color: #dbf303;
-  --loading__text--color: #ffffff;
+  --button__background--text: #000;
+  --main__body--color: #fceef3ff;
+  --button__background--color: #0663aadb;
+  --text__border--color: #033dffd4;
+  --loading__text--color: #040000;
+  --modal__display--color: cornsilk;
+  --header__color: #e5ac9fff;
 }
 /* Styling starts here  */
 body {
   font-family: emoji;
   line-height: 90px;
   word-spacing: 5px;
-  color: var(--main__text--color);
-  /* display: flex;
-  justify-content: center; */
-  background: url("/image/pokemon.jpeg");
-  /* background-size: 215vh; */
+  background: var(--main__body--color);
 }
 
 /* button for pokemon__list */
 .pokemon__list--button {
-  border: 2px solid #dbf303;
+  border: 2px solid #dbf30385;
   cursor: pointer;
   text-align: center;
   background-color: var(--button__background--color);
-  color: var(--main__background--color);
-  font-size: 30px;
+  color: var(--button__background--text);
+  font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 5px;
-  border-radius: 15px;
+  border-radius: 10px;
+  position: relative;
+  left: 530px;
+  top: -114px;
 }
 
 .pokemonListItems {
@@ -42,10 +43,14 @@ body {
   font-size: 40px;
   text-transform: uppercase;
   color: var(--text__border--color);
+  background: var(--header__color);
+  position: relative;
+  top: -27px;
+  border-radius: 5px;
 }
 
 .loading__message {
-  color: var(--loading__text--color);
+  color: var(--main__background--color);
 }
 
 .hidden {
@@ -71,14 +76,14 @@ body {
   display: inline-block;
   box-sizing: border-box;
   margin: auto;
-  background: cornsilk;
+  background: var(--modal__display--color);
   padding: 15px;
   width: 100%;
   top: 250px;
   position: relative;
   max-width: 400px;
   border-radius: 20px;
-  color: var(--main__text--color);
+  height: 700px;
 }
 
 .close__modal--button {
