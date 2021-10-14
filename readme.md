@@ -1,4 +1,4 @@
-#(JavaScript) Pokédex Web App
+**(JavaScript) Pokédex Web App**
 This program is the outcome of the simple-js-app src code.
 
 <ins>Goal of the Users:</ins>
