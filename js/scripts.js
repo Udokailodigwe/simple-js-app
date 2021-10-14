@@ -5,8 +5,7 @@
  *                   getAll - Lists all items in pokemonList array.
  *                   addListItem - This function selected, created and  manipulated nodes and also
  *                                           rendered to browser.                                 
- * 
- *                   showDetails - Loads the details of the pokemon from the API to the console
+ *                    showDetails - Loads the details of the pokemon from the API to the console
  *                                            and displays modal
  *                   loadList - Loads the pokemon list from the URL using promise function & fetch().
  *                   loadDetails - will GET the Pokemon details using the promise function & fetch() 
