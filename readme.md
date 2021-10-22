@@ -11,7 +11,7 @@ Data will load from an external Pokemon API source to present a list of Pokemons
 <hr>
 <ins>App Functionality</ins><br>
 The application must load data through an external API.<br>
-The lsit of items stored in the API will be displayed once the page complete loading time.<br>
+The list of items stored in the API will be displayed once the page complete loading time.<br>
 The app interface must enable the viewing of the details of the presented list item from the API, either through mouse clicking or enter button.<br>
 Details are displayed through modal within the app.<br>
 <hr>
