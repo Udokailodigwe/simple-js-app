@@ -4,18 +4,56 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="./image/favicon-32x32.png">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
    <link rel="stylesheet" href="css/style.css">
-   <title>simple-js-app</title>
+   <title>Pokédex</title>
 </head>
 <body>
-   <h1 class="head">Pokémon</h1>
-   
-   <div class="loading__message">Fetching Pokémons, please wait...</div>
+   <!-- Navigation and Search Bar -->
+   <header class="page-header">
+      <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-info">
+         <a class="navbar-brand font-weight-bold text-uppercase" href="index.html"> <img src="./image/pokemon.png" class="img-fluid img-thumbnail" alt="Pokemon Logo"> Pokédex</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="navbar-collapse justify-content-end align-self-end" id="navbarSupportedContent">
+            <form class="form-inline my-2 my-lg-0 ">
+               <input class="form-control form-control-sm mr-sm-2" type="search" id="hunt__filter" placeholder="Hunt for Pokémons..." aria-label="Search">
+               <button class="btn btn-outline-light my-2 my-sm-0" type="submit" ><em>Hunt</em></button>
+            </form>
+         </div>
+      </nav>
+   </header>
+   <br>
+   <br>
 
-   <ul class="pokemon__list"></ul>
-   <div class="pokemon__modal--container"></div>
+   <!-- Loading Message -->
+   <div class="loading__message">
+      <p class="text-right  mx-2 mt-sm-2">Hunting for Pokémons, please wait...</p> 
+   </div>
+
+<!-- Pokemon List -->
+<div class="container">
+   <ul class="pokemon__list row"></ul>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="pokemonModalContainer" tabindex="-1" role="dialog" aria-labelledby="pokemonModelContainerLabel" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h5 class="modal-title" id="modal-title"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+               <span aria-hidden="true">&times;</span></button>
+         </div>
+         <div class="modal-body"></div>
+      </div>
+   </div>
+</div>
+
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
