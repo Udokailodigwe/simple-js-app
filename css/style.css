@@ -1,75 +1,7 @@
-/* Styling the body of pokedex app */
+/* Styling the body of pokedex app 
 
-/* Variables */
-:root {
-  --main__body--color: #e1c9b7;
-  --button__class--color: #ffffff;
-  --button__hover--color: #00ffffb9;
-  --modal__content--color: #ffffffa1;
-  --modal__header--color: #40e0d0;
-}
 /* Styling starts here  */
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: emoji;
-  line-height: 70px;
-  background: var(--main__body--color);
-}
-
-.hidden {
+/* .hidden {
   display: none;
-}
-
-.group-list-item {
-  list-style-type: none;
-}
-
-.btn {
-  margin-top: 20px;
-  font-size: 15px;
-}
-
-.button-class {
-  color: var(--button__class--color);
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-button:hover,
-button:focus,
-.button-class:hover,
-.button-class:focus {
-  background-color: var(--button__hover--color);
-  font-size: 17px;
-  cursor: pointer;
-}
-
-.page-header {
-  height: 50px;
-}
-
-.modal-content {
-  background-color: var(--modal__content--color);
-  height: 600px;
-}
-
-.modal-body {
-  position: relative;
-  top: -45px;
-  font-size: 20px;
-}
-
-/* position dialog */
-.modal-dialog {
-  position: relative;
-  top: 100px;
-}
-
-.modal-header {
-  text-transform: capitalize;
-  background-color: var(--modal__header--color);
-}
+} */
