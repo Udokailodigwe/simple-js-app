@@ -23,10 +23,3 @@ Details are displayed through modal within the app.<br>
 <li>JQuery</li>
 <li>Bootstrap</li>
 </ul>
-<hr>
-<ins>View Project </ins><br>
-You can visit the project via     https://udokailodigwe.github.io/simple-js-app/
-<hr>
-<ins>API used and External Scripts and Source</ins><br>
-The following API loads the data to the app https://pokeapi.co/api/v2/pokemon/?limit=250 <br>
-Project embedded fetch-polyfill, promise-polyfill and bootstrap and JQuery scripts.
